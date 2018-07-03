@@ -65,8 +65,12 @@ img{
   border-width: thin;
   line-height:34px;
   padding:5px;
+  box-shadow: 1px 2px 3px #888888;
+  
 }
-
+.barre input :hover{
+  
+}
 .centre button{
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
@@ -103,4 +107,30 @@ nav > ul
   margin: 0;
   padding: 0;
 }
+span > a 
+{
+  display: inline-block;
+text-decoration: none;
+}
+span > ul> li> a {
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+.submenu {
+display: none;
+}
 
+span li:hover .submenu
+{
+display: inline-block;
+position: absolute;
+padding:0px;
+
+}
+
+.submenu li a
+{
+  padding: 10;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.54);
+}
