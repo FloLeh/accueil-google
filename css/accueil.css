@@ -1,0 +1,100 @@
+li {
+  display: inline;
+  color: rgba(0,0,0,0.87);
+  padding : 5px;
+}
+
+a {
+  text-decoration:none;
+}
+a:visited{
+  color: black;
+}
+header button {
+  background-color: #4285f4;
+  color: white;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 2px;
+  padding : 8px;
+}
+
+html {
+  font-family: arial,sans-serif;
+}
+
+.centre {
+  display : flex;
+  justify-content: center;
+
+}
+
+header {
+  text-align: right;
+  font-size : 13px;
+  margin-right: 15px;
+}
+
+.listg {
+  float: left;
+  background-color: rgba(0,0,0,.05);
+}
+
+.listd {
+  float: right;
+  background-color: rgba(0,0,0,.05);
+}
+
+footer a{
+  color: rgba(0, 0, 0, 0.54);
+
+}
+footer{
+  background-color: rgba(0,0,0,.05);
+  width: 100%;
+  margin-top:18%;
+  font-size: small;
+}
+
+img{
+  margin: 25%;
+  margin-bottom: 25px;
+}
+
+.barre input{
+  margin-bottom:25px;
+  border-width: thin;
+  line-height:34px;
+  padding:5px;
+}
+
+.centre button{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-size: 13px;
+    font-weight: bold;
+    height: 36px;
+    line-height :27px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.boutons {
+  margin:25%;
+}
+footer a {
+  margin : 5px;
+  padding : 5px;
+}
+
+.france {
+  padding : 5px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+a:hover{
+  text-decoration: underline;
+}
